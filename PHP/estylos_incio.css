@@ -1,0 +1,103 @@
+*{/*quita los bordes */
+    margin: 0; 
+    padding: 0;
+}
+
+  
+  html, body {
+    height: 100%;
+  }
+header{ /*solo modificamos o estilisamos el header */
+    width: 100%; /* va a ocupar el 100 del navegador*/
+    background: darkslategrey; /*pintamos el fondo del head*/
+    color: white;/*pintamos las letras del head */
+    padding-top: 1em; /*usamos la medida em por temas de adactabilidad a las pantallas */
+    padding-bottom: 1em; /* estamos cuadrando los espacios del texto denteo del cuadrado del head */
+}
+header img {
+    width: 100px; /* elegimos el tamaño de la imagen en px*/
+    margin-left: 44% ; /* la distancia de ancho*/
+    margin-top: 1%; /* la distancia de alto */
+    border-radius: 100%; /* redondemos el borde de la imagen */
+}
+header h1{
+    text-align: center; /* alineamos al centro*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* cambiamos la letra*/
+    font-size: 2em; /* tamaño*/
+}
+header h2{
+    text-align: center; /* alineamos al centro*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* cambiamos la letra*/
+    font-size: 2em; /* tamaño*/
+}
+section{
+    width: 70%; /* el tamaño que usara en la pantalla*/
+    margin: 0 auto; /* centramos */
+
+}
+article{
+    padding: 20px 0 20px 0; /* distanciamos los article */
+    border-bottom: 1px dotted darkgrey; /* marcamos con una linea la distancia de diferencia */
+
+}
+article h2{
+    float: left; /* flotante = lo une todo */
+    border-bottom: 2px solid cadetblue; /* le pusimos un borde a todos los h2*/
+    padding-bottom: 5px;
+    line-height: 1.3em; /* distanciamos el border-bottom del texto */
+    font-size: 1em;
+    text-transform: uppercase; /* lo ponemos bonito / en mayusculas */
+
+}
+article p{
+    margin-left: 20%; /* adaptamos la cantidad que ocupar en la pantalla*/
+}
+article p, article ul{ /* trabajamos con las etiquetas de parrafo y las ul*/
+    margin-left: 40%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: darkslategrey;
+    line-height: 1.3em;
+    margin-bottom: 1.6em;
+}
+article ul li{
+    margin-left: 15px;
+    list-style: square; /* cambiamos el icono de la lista a cuadrados */
+}
+footer{
+    margin-top: 2em; /* lo distanciamos de la parte de arriba */
+    padding: 1em;
+    width: 100%;
+    background: darkslategrey;
+    color: azure;
+    text-align: center; /* centramos el texto*/
+    
+
+}
+footer a:link, footer a:visited { /*ingresamos en el link de A*/
+    color: azure;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: orange; /* le cambiamos el color del link cuando pasemos el mouse por encima  */
+
+}
+.btn{
+    background-color: rgb(14, 201, 201);
+    color: #fff;
+    margin: 25px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+section{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+a{
+    color: antiquewhite;
+}
